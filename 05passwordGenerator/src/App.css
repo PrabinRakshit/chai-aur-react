@@ -1,0 +1,21 @@
+#root {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+body {
+  background-color: black;
+}
+
+.copy-btn {
+  background: linear-gradient(90deg, #2563eb 50%, #066f24 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  transition: background-position 0.3s cubic-bezier(.4,0,.2,1);
+}
+
+.copy-btn.active-btn {
+  background-position: right;
+}
